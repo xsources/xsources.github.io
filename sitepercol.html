@@ -14,12 +14,10 @@
   margin: auto;
   overflow: hidden;
 }
-
 ul {
   margin: 0;
   padding: 0;
 }
-
 .button_1{
   height: 38px;
   background: #e8491d;
@@ -28,7 +26,6 @@ ul {
   padding-right: 20px;
   color: #ffffff;
 }
-
 .dark {
   padding: 15px;
   background: #35424a;
@@ -44,44 +41,35 @@ header {
   min-height: 70px;
   border-bottom: #e8491d 3px solid;
 }
-
 header a {
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
 }
-
-
 header li{
   float: left;
   display: inline;
   padding: 0 20px 0 20px;
 }
-
 header #branding {
   float: left;
 }
-
 header #branding h1 {
   margin: 0;
 }
-
 header nav {
   float: right;
   margin-top: 10px;
 }
-
 header .highlight, header .current a{
   color: #e8491d;
   font-weight: bold;
 }
-
 header a:hover{
   color: #cccccc;
   font-weight: bold;
 }
-
 /* Showcase */
 #showcase {
   min-height: 400px;
@@ -89,73 +77,60 @@ header a:hover{
  text-align: center;
  color: #ffffff;
 }
-
 #showcase h1 {
   margin-top:100px;
   font-size: 55px;
   margin-bottom: 10px;
 }
-
 #showcase p {
   font-size: 20px;
 }
-
 /* newsletter */
 #newsletter {
   padding: 15px;
   color: #ffffff;
   background: #35424a;
 }
-
 #newsletter h1 {
  float: left;
 }
-
 #newsletter form {
   float: right;
   margin-top: 15px;
 }
-
 #newsletter input[type="email"]{
   padding: 4px;
   height: 25px;
   width: 250px;
 }
-
 /* boxes*/
 #boxes {
   margin-top: 20px;
 }
-
 #boxes .box {
   float: left;
   text-align: center;
   width: 30%;
   padding: 10px;
 }
-
 #boxes .box img{
   width:90px;
 }
-
 /* Sidebar */
 aside#sidebar {
   float: right;
   width: 30%;
   margin-top: 10px;
 }
-
 aside#sidebar .quote input, aside#sidebar .quote textarea{
   width: 90%;
   padding: 5px;
 }
-
 /*Main-col*/
 article#main-col {
   float: left;
   width: 65%;  
 }
-
 /* Services */
 ul#services li {
   list-style: none;
@@ -164,7 +139,6 @@ ul#services li {
   margin-bottom: 5px;
   background: #e6e6e6;
 }
-
 /* footer */
 footer {
   padding: 20px;
@@ -173,7 +147,6 @@ footer {
   background-color: #e8491d;
   text-align: center;
 }
-
 /* Media Queries */
 @media(max-width: 768px) {
   header #branding, 
@@ -216,15 +189,20 @@ footer {
     <div class="container">
       <article id="main-col">
         <h1 class="page-title">Interactive site percolation in square lattice</h1>  
-        <p>We present here a percolation system in a (100x100) square lattice. Our interactive python application computes 
+        <p>We present here a percolation system in a (100x100) square lattice (left side). Our interactive python application computes 
 and updates at each click on the "Next" button the following elements:
 
    <li> the probability (p)
-   <li> the concentration (c) of “occupied sites”
+   <li> the concentration (c) of "occupied sites"
    <li> the size of the lagest component (LC), colored in red
 <br>
 At the percolation threshold pc=0.5927, the largest component spans the percolation system by 
 joining two opposite sides of the square grid.</p>
+
+<p>
+On the right side of the app, the percolation function &#952;(p) (the probability for a site 
+to belong to the largest component) is plotted dot by dot, at each button click.
+</p>
         <p class="dark">Python code and interactive app</p>
       </article>
     </div>
@@ -321,14 +299,12 @@ joining two opposite sides of the square grid.</p>
       setTimeout(setupNbinteract, 1000)
       return
     }
-
     var interact = new window.NbInteract({
       spec: 'SamLau95/nbinteract-image/master',
       baseUrl: 'https://mybinder.org',
       provider: 'gh',
     })
     interact.prepare()
-
     window.interact = interact
   })()
 </script>
