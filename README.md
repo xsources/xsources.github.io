@@ -1,5 +1,5 @@
 
-Python simution of site percolation in square lattice
+Python simulation of site percolation in square lattice
 
 We present here a percolation system in a (100x100) square lattice (left side). Our interactive python application computes and updates at each click on the "Next" button the following elements:
 - the probability (p)
