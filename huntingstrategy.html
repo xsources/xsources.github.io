@@ -1,0 +1,241 @@
+<html>
+ <head>
+ <title>Strategies for success in animals</title>
+ <style>
+ body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+/* Global */
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.button_1{
+  height: 38px;
+  background: #f8491d;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+.dark {
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* Header */
+header {
+  background:  #0023dc;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header #branding {
+  float: left;
+}
+header #branding h1 {
+  margin: 0;
+}
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+header .highlight, header .current a{
+  color: #e8491d;
+  font-weight: bold;
+}
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+/* Showcase */
+#showcase p {
+  font-size: 20px;
+}
+/* newsletter */
+#newsletter {
+  padding: 15px;
+  color: #ffffff;
+  background: #35424a;
+}
+#newsletter h1 {
+ float: left;
+}
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+#newsletter input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+/* boxes*/
+#boxes {
+  margin-top: 20px;
+}
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+#boxes .box img{
+  width:90px;
+}
+/* Sidebar */
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width: 90%;
+  padding: 5px;
+}
+/*Main-col*/
+article#main-col {
+  float: left;
+  width: 65%;  
+}
+/* Services */
+ul#services li {
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
+/* footer */
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #ce1ac9 ;
+  text-align: center;
+}
+/* Media Queries */
+@media(max-width: 768px) {
+  header #branding, 
+  header nav,
+  header nav li,
+  #newlsetter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float: none;
+    text-align: center;
+    width: 100%
+  }
+  
+  header {
+   padding-bottom: 20px; 
+  }
+  
+  #showcase h1 {
+    margin-top: 40px;
+  }
+  
+  #newletter button,  .quote button {
+    dislplay: block;
+    width: 100%;
+  }
+  
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+   width: 100%;
+   margin-bottom: 20px
+  }
+}
+</style>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  </head>
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1>Said Boutiche Web Blog</h1>
+      </div>
+
+    </div>
+  </header>
+    
+  <section id="newsletter">
+    <div class="container">
+      <h1>Quels sont les chemins qui mènent à la connaissance? </h1>
+
+    </div>
+  </section>  
+ 
+  <section id="main">
+  
+  	    <div class="container">
+      <article id="main-col">
+        <h1 class="page-title">Strategies for success in animals</h1>  
+ A hunting sequence of 2 sloughi greyhounds, rich in teachings in a magical setting, with a musical 
+ "gnawi" background, in the Algerian sahara. In this sequence it is easy to observe:
+ <ol>
+ <li> Hunting strategy of two sloughi
+ <li> Optimal management of the expended energy 
+ <li> Successful hunting.
+  </ol>
+<p>The strategy consists in keeping the prey (sahara bunny) in a state of extreme escape, 
+spending all its energy until exhaustion. All that is needed for the 2 sloughi is to take position
+one behind the other in the race, so that they relay each other on short phases with maximum speed. </p>
+
+<p>Such phases are so well alternated and regulated that the prey is depleted long before the predators that catch it. 
+It is the eternal prey-predator competition.</p>
+
+      </article>	      
+	  <aside id="sidebar">
+      <li><a href="index.html">Accueil</a>
+      <li><a href="strategiechasse.html">(in French)Stratégies de la réussite chez les animaux</a>
+
+     </aside>
+
+      
+    </div>
+    <div class="container">
+      <article id="main-col">
+        <p class="dark">
+		(courtesy Ness Souf ناس سوف-Algeria)
+		       <video width="580" height="400" controls>
+        <source src="sloughi_hunting.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video> 
+		
+		</p>
+        <p></p>
+      </article>
+      
+
+    </div>
+  </section>
+  
+  <footer>
+    <p>Said Boutiche - 2019</p>
+  </footer>
+</body>
+</html>
