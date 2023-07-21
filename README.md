@@ -1,8 +1,11 @@
 
-Python simulation of site percolation in square lattice:
-https://pythonyx.pythonanywhere.com/percolation/
+Python simulation of site percolation on square lattice:
+Two python applications are presented here to simulate the percolation process on the square lattice. The first, more flexible uses Django application while the second is developed with the help of python Jupyter framework.
 
-We present here a percolation system in a (100x100) square lattice (left side). Our interactive python application computes and updates at each click on the "Next" button the following elements:
+1. Percolation with django app: (variable size with a square side varying between 10 and 1000)
+   https://pythonyx.pythonanywhere.com/percolation/
+
+2. Percolation developed with Jupyter framework, (100x100) square lattice system. This application computes and updates at each click on the "Next" button the following elements:
 - the probability (p)
 - the concentration (c) of "occupied sites"
 - the size of the lagest component (LC), colored in red
